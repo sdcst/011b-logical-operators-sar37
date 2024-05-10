@@ -22,4 +22,19 @@ Enter your name=>Gordon
 You are not a VIP.
 """
 
+from typing import List
+
+
 VIPNames = ("Guile","Blanka","Christine","Carol","Richard","Daniel","Chun-Li")
+
+question = "please enter a name"
+n = input(question)
+n = str(n)
+
+if n in VIPNames:
+    print(f" Hi {n} you are a VIP")
+
+else: 
+    print( f"you are not a VIP")
+
+

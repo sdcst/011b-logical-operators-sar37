@@ -31,3 +31,23 @@ Enter a number: 8
 Enter a number: 64
 64 is both a perfect square and divisible by 2.
 """
+question = "enter a number"
+n = input(question)
+n = float(n)
+
+ps = n**0.5
+
+d = n/2
+
+if n ==ps*ps and n == d*2:
+    print(f"{n} is both a perfect square and divisible by 2." )
+
+elif n == ps*ps:
+    print(f"{n} is only a perfect square")
+
+elif n == d*2:
+    print(f"{n} is only divisible by 2.")
+
+
+
+

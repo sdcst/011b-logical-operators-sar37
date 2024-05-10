@@ -26,3 +26,30 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+question = " enter a number"
+n = input(question)
+n = int(n)
+nn = "enter another number"
+nn = input(nn)
+nn = int(nn)
+if n >= nn:
+    print(f"{n} is bigger than {nn}")
+    f = n/nn
+    f = round(f)
+    if n/f == nn:
+        print(f"{nn} is a factor of {n}")
+elif nn >= nn:
+    print(f"{n} is smaller than {nn}")
+    f = nn/n
+    f = round(f)
+    if nn/f == n:
+        print(f"{nn} is a factor of {n}")
+elif n == nn:
+    print(f"{n} and {nn} are equal")
+    print(f"{n} is a factor of{nn}")
+
+
+
+
+
+
